@@ -1,25 +1,34 @@
 body {
   background-color: #ff0000;
   color: #0000FF;
+  font-size: 100% /* Added font-size */
+  line-height: normal /* Added line-height */
+  text-decoration: none /* Removed reference to underline links */
+  a.link {color: #0070BB; /* Add reference to unvisted links */   
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #ffffff; /*Changed RGBA from (0,0,0,.5) to #ffffff */
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
+  background-image: url (http://www.imageurl.com); /* Added background image property */
+  background-position: center; /* Added background position */
+  background-repeat: repeat; /* Added background repeat */
   margin: 20px;
   width: 100px;
 }
 
 .large-pic {
+  background: #fff url (http://www.imageurl.com) no-repeat top center; /* Added background image, background repeat, and background position properties */
   width: 100%;
 }
 
 .medium-pic {
+  background: #fff url (http://www.imageurl.com) no-repeat bottom center; /* Added background image, background repeat, and background position propertiesproperty */
   width: 70%;
 }
 
@@ -44,6 +53,8 @@ li {
 
 article {
   padding-top: 100px;
+  font-weight: 700; /* Added font-weight */
+  line-height: normal; /* Added line-height */
 }
 
 .container {
