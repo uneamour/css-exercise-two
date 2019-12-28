@@ -1,10 +1,31 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
-  font-size: 100% /* Added font-size */
-  line-height: normal /* Added line-height */
-  text-decoration: none /* Removed reference to underline links */
-  a.link {color: #0070BB; /* Add reference to unvisted links */   
+  background-color: #00ffA2; /* Changed Hex color to pass accessibility requirements */
+  color: #004466; /* Changed Hex color to pass accessibility requirements */
+  font-size: 16px; /* Added font-size of 16px */
+  line-height: normal; /* Added line-height */
+  text-decoration: none; /* Removed reference to underline links */
+  a.link: {color: #003C66}; /* Added reference to unvisted links */  
+  a.hover {color: 0C0066}; /* Added reference to interactive links */
+}
+
+h1 { /** Added new h1 grouping font size, and line-height indicator **/
+  font-size: 2 em;
+  line-height: 2 em;
+}
+
+p { /** Added new p grouping font size, and line-height indicator **/
+  font-size: 2 em;
+  line-height: 2 em;
+}
+
+h2 { /** Added new h2 grouping, font size, and line-height indicator **/
+  font-size: 1.5 em;
+  line-height: 2 em;
+}
+
+h3 { /** Added new h23 grouping font size, and line-height indicator **/
+  font-size: 1.2 em;
+  line-height: 2 em;  
 }
 
 nav {
@@ -15,7 +36,7 @@ nav {
 }
 
 .logo {
-  background-image: url (http://www.imageurl.com); /* Added background image property */
+  background-image: url (http://www.gettyimage.com); /* Added background image property */
   background-position: center; /* Added background position */
   background-repeat: repeat; /* Added background repeat */
   margin: 20px;
@@ -23,12 +44,12 @@ nav {
 }
 
 .large-pic {
-  background: #fff url (http://www.imageurl.com) no-repeat top center; /* Added background image, background repeat, and background position properties */
+  background: #fff url (http://www.gettyimage.com) no-repeat top center; /* Added background image, background repeat, and background position properties */
   width: 100%;
 }
 
 .medium-pic {
-  background: #fff url (http://www.imageurl.com) no-repeat bottom center; /* Added background image, background repeat, and background position propertiesproperty */
+  background: #fff url (http://www.gettyimage.com) no-repeat bottom center; /* Added background image, background repeat, and background position properties property */
   width: 70%;
 }
 
