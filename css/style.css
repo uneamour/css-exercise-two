@@ -1,31 +1,37 @@
 body {
-  background-color: #00ffA2; /* Changed Hex color to pass accessibility requirements */
-  color: #004466; /* Changed Hex color to pass accessibility requirements */
+  background-color: #0C0066; /* Changed Hex color to pass accessibility requirements */
+  color: 00FFA2; /* Changed Hex color to pass accessibility requirements */
   font-size: 16px; /* Added font-size of 16px */
   line-height: normal; /* Added line-height */
   text-decoration: none; /* Removed reference to underline links */
-  a.link: {color: #003C66}; /* Added reference to unvisted links */  
-  a.hover {color: 0C0066}; /* Added reference to interactive links */
+}
+
+a:link { /** NEW added this grouping so that it occurs outside the body **/
+  color: #003C66;
+}
+
+a:hover {/** NEW added this grouping so that it occurs outside the body **/
+  color: #0C0066;
 }
 
 h1 { /** Added new h1 grouping font size, and line-height indicator **/
-  font-size: 2 em;
-  line-height: 2 em;
+  font-size: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
+  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
 }
 
 p { /** Added new p grouping font size, and line-height indicator **/
-  font-size: 2 em;
-  line-height: 2 em;
+  font-size: 2em;
+  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
 }
 
 h2 { /** Added new h2 grouping, font size, and line-height indicator **/
-  font-size: 1.5 em;
-  line-height: 2 em;
+  font-size: 1.5em; /** NEW removed spaces between 1.5 em so that it now reads 1.5em **/
+  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
 }
 
 h3 { /** Added new h23 grouping font size, and line-height indicator **/
-  font-size: 1.2 em;
-  line-height: 2 em;  
+  font-size: 1.2em; /** NEW removed spaces between 1.2 em so that it now reads 1.22em **/
+  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/ 
 }
 
 nav {
