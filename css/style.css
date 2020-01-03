@@ -1,37 +1,38 @@
 body {
   background-color: #0C0066; /* Changed Hex color to pass accessibility requirements */
-  color: 00FFA2; /* Changed Hex color to pass accessibility requirements */
+  color: #DAF7A6; /* Changed Hex color from dark blue to lighter color to pass accessibility requirements, and added missing # */
   font-size: 16px; /* Added font-size of 16px */
   line-height: normal; /* Added line-height */
-  text-decoration: none; /* Removed reference to underline links */
+  
 }
 
-a:link { /** NEW added this grouping so that it occurs outside the body **/
+a:link { /** Added this grouping so that it occurs outside the body **/
   color: #003C66;
+  text-decoration: none; /* NEW Moved text-decoration from under the body grouping and added it here; also removed reference to underline links */
 }
 
-a:hover {/** NEW added this grouping so that it occurs outside the body **/
-  color: #0C0066;
+a:hover {/** Added this grouping so that it occurs outside the body **/
+  color: #0C0066; /* NEW Moved text-decoration from under the body grouping and added it here; also removed reference to underline links */
 }
 
 h1 { /** Added new h1 grouping font size, and line-height indicator **/
-  font-size: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
-  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
+  font-size: 2em; /** Removed spaces between 2 em so that it now reads 2em **/
+  line-height: 2em; /** Removed spaces between 2 em so that it now reads 2em **/
 }
 
 p { /** Added new p grouping font size, and line-height indicator **/
-  font-size: 2em;
-  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
+  font-size: 1em; /** New reduced font size from 2em to 1em for better readability **/
+  line-height: 2em; /** Removed spaces between 2 em so that it now reads 2em **/
 }
 
 h2 { /** Added new h2 grouping, font size, and line-height indicator **/
-  font-size: 1.5em; /** NEW removed spaces between 1.5 em so that it now reads 1.5em **/
-  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/
+  font-size: 1.5em; /** Removed spaces between 1.5 em so that it now reads 1.5em **/
+  line-height: 2em; /** Removed spaces between 2 em so that it now reads 2em **/
 }
 
 h3 { /** Added new h23 grouping font size, and line-height indicator **/
-  font-size: 1.2em; /** NEW removed spaces between 1.2 em so that it now reads 1.22em **/
-  line-height: 2em; /** NEW removed spaces between 2 em so that it now reads 2em **/ 
+  font-size: 1.2em; /** Removed spaces between 1.2 em so that it now reads 1.22em **/
+  line-height: 2em; /** Removed spaces between 2 em so that it now reads 2em **/ 
 }
 
 nav {
@@ -42,7 +43,7 @@ nav {
 }
 
 .logo {
-  background-image: url (http://www.gettyimage.com); /* Added background image property */
+  background-color: #ffffff; /* Fixed background color */
   background-position: center; /* Added background position */
   background-repeat: repeat; /* Added background repeat */
   margin: 20px;
@@ -50,12 +51,11 @@ nav {
 }
 
 .large-pic {
-  background: #fff url (http://www.gettyimage.com) no-repeat top center; /* Added background image, background repeat, and background position properties */
-  width: 100%;
+  background-color: #ffffff; /* Fixed background color */
 }
 
 .medium-pic {
-  background: #fff url (http://www.gettyimage.com) no-repeat bottom center; /* Added background image, background repeat, and background position properties property */
+  background-color: #ffffff; /* Fixed background color */
   width: 70%;
 }
 
