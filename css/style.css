@@ -1,18 +1,18 @@
 body {
   background-color: #0C0066; /* Changed Hex color to pass accessibility requirements */
-  color: #DAF7A6; /* Changed Hex color from dark blue to lighter color to pass accessibility requirements, and added missing # */
+  color: #86D9CD; /* Changed Hex color from dark blue to lighter color to pass accessibility requirements, and added missing # */
   font-size: 16px; /* Added font-size of 16px */
   line-height: normal; /* Added line-height */
   
 }
 
 a:link { /** Added this grouping so that it occurs outside the body **/
-  color: #003C66;
+  color: #000000; /* NEW changed link color */
   text-decoration: none; /* NEW Moved text-decoration from under the body grouping and added it here; also removed reference to underline links */
 }
 
 a:hover {/** Added this grouping so that it occurs outside the body **/
-  color: #0C0066; /* NEW Moved text-decoration from under the body grouping and added it here; also removed reference to underline links */
+  color: #858585; /* NEW Updated text color and moved text-decoration from under the body grouping and added it here; also removed reference to underline links */
 }
 
 h1 { /** Added new h1 grouping font size, and line-height indicator **/
@@ -36,7 +36,7 @@ h3 { /** Added new h23 grouping font size, and line-height indicator **/
 }
 
 nav {
-  background-color: #ffffff; /*Changed RGBA from (0,0,0,.5) to #ffffff */
+  background-color: #D9C686; /*NEW Changed RGB from #ffffff to #D9C686*/
   float: left;
   position: fixed;
   width: 100%;
