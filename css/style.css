@@ -43,7 +43,6 @@ nav {
 }
 
 .logo {
-  background-color: #ffffff; /* Fixed background color */
   background-position: center; /* Added background position */
   background-repeat: repeat; /* Added background repeat */
   margin: 20px;
